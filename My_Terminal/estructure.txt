@@ -1,0 +1,10 @@
+Estrutura da minha pasta WindowsPowerShell
+geralmente presente em:
+ C:\Users\<username>\OneDrive\Documentos\WindowsPowerShell
+
+|--WindowsPowerShell
+|  |--Modules
+|  |--Scripts
+|  |--Microsoft.PowerShell_profile.ps1
+|  |--theme.omp.json
+|

@@ -1,0 +1,15 @@
+1.Install-Module posh-git -Scope CurrentUser
+2.Install-Module oh-my-posh -Scope CurrentUser
+3.notepad $PROFILE //-- os 3 comandos abaixo serão inseridos dentro do $PROFILE
+	Import-Module posh-git
+	Import-Module oh-my-posh
+	Set-PoshPrompt -Theme <nome_do_tema>// Define um tema do terminal
+Get-PoshThemes // lista todos os temas (link:https://ohmyposh.dev/docs/themes)
+"""
+outra forma de alterar o tema é criando um arquivo 
+"""
+codigos extras (terminal como adiminstrador):
+	Set-ExecutionPolicy -ExecutionPolicy Unrestricted
+	Install-Module PSReadLine -Force
+	Set-PSReadLineOption -PredictionSource History //caso der erro feche o terminal e abra novamente como adiminstrador
+	Set-PSReadLineOption -PredictionViewStyle ListView
