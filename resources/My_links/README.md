@@ -15,7 +15,7 @@ Este repositório contém uma lista de links favoritos para referência futura. 
 
 - [Documentação oficial do Python](https://docs.python.org/3/)
 - [Referência completa do JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference)
-- [Padrões de Commits](https://github.com/iuricode/padroes-de-commits)
+- [Referência de Padrões de Commits](https://github.com/iuricode/padroes-de-commits)
 
 ## Ferramentas
 
