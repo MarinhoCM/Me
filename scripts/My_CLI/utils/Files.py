@@ -12,7 +12,7 @@ def verify_files(path: str) -> bool:
         return False
 
 
-def create_file(path: str, file_content= None) -> None:
+def create_file(path: str, file_content=None) -> None:
     """Função responsável por criar os arquivos"""
     with open(path, "w", encoding='UTF8') as arquive:
         if file_content:
