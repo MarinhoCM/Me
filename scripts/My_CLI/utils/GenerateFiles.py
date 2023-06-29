@@ -4,15 +4,12 @@ ao ser requisitado pela CLI"""
 import os
 
 from .Files import verify_files, create_file
-from .messages import sucess_message, error_message
+from .messages import error_message
 
 
 class GenerateFiles:
-    def __init__(self: object) -> None:
+    def __init__(self) -> None:
         GenerateFiles.generate_directory()
-        print(sucess_message(
-            'Configuração compreta!'
-        ))
 
     def generate_directory() -> object:
         """Função responsável por criar todo o diretorio
@@ -60,6 +57,3 @@ class GenerateFiles:
                 f'o diretório {directory_support}\n' +
                 err
             ))
-
-
-GenerateFiles()
