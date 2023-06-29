@@ -10,13 +10,13 @@ from utils.Files import verify_files
 __version__ = 'v0.0.1'
 
 
-def version(args: str):
+def version(args: str) -> None:
     if args:
         print(__version__)
         raise Exit(code=0)
 
 
-def generate_files(args: str):
+def generate_files(args: str) -> None:
     if args:
         GenerateFiles()
         if verify_files('features') and verify_files('Support'):
