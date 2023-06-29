@@ -3,8 +3,8 @@ ao ser requisitado pela CLI"""
 
 import os
 
-from Files import verify_files, create_file
-from messages import sucess_message, error_message
+from .Files import verify_files, create_file
+from .messages import sucess_message, error_message
 
 
 class GenerateFiles:
