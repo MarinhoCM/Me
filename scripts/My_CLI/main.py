@@ -1,4 +1,4 @@
-"""Módulo de testes"""
+"""Módulo principal utilizado no projeto"""
 from typer import (
     Exit, Option, run
 )
@@ -14,16 +14,17 @@ def version(args: str):
     if args:
         print(__version__)
         raise Exit(code=0)
-    
+
+
 def generate_files(args: str):
     if args:
         GenerateFiles()
         if verify_files('features') and verify_files('Support'):
             print(sucess_message(
                 'Diretório gerado com sucesso!'
-            ))    
+            ))
         raise Exit(code=0)
-    
+
 def main(
     version_: bool = Option(False,
         '--version', '-v', '--Version', '-version',
