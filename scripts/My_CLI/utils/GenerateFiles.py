@@ -57,3 +57,8 @@ class GenerateFiles:
                 f'o diretório {directory_support}\n' +
                 err
             ))
+    
+    def write_in_files(text: str) -> None:
+        """Função responsável por escrever o conteúdo 
+        inicial dos arquivos criados"""
+        ... 
