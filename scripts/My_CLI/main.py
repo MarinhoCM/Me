@@ -25,6 +25,7 @@ def generate_files(args: str) -> None:
             ))
         raise Exit(code=0)
 
+
 def main(
     version_: bool = Option(False,
         '--version', '-v', '--Version', '-version',
@@ -37,7 +38,7 @@ def main(
         False,
         '--init',
         callback=generate_files,
-        help='Responsável por inicia a CLI e construir os diretórios',
+        help='Responsável por iniciar a CLI e construir os diretórios',
         is_eager=True,
         is_flag=True
     )
